@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;500;600 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 230px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px #92a1b026;
+}
+
+.logo h3{
+    font-size: 26px;
+    color: #301a0d;
+    letter-spacing: 1.6px;
+    cursor: pointer; 
+    font-weight: 700;
+    padding-left: 3px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+
+.menu ul li{
+    list-style: none;
+    margin-left: 35px;
+}   
+
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.menu ul li a::after{
+    content: '';
+    display: block;
+    position:absolute;
+    width: 0;
+    height: 3px;
+    background-color: #3867e8;
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover::after{
+    width: 100%;
+}
+
+.home__blob-img{
+    float: left;
+    width: 300px;
+    height: 575px;
+}
+#home{
+    padding: 0 230px;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    width: 50%;
+    text-align: right;
+    
+   
+}
+
+.text{
+    width: 50%;
+}
+.text h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 37px;
+}
+
+.text h2 .name{
+    color: #3867e8;
+}
+
+.text button{
+    background: #3867e8;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    font-weight:bold;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.text button:hover{
+    background: #2d58ce;
+}
+
+.footer_icon{
+    padding-left: 5px;
+}
+
+.footer_icon i{
+    font-size: 18px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer_icon i:hover{
+    color: #3867e8;
+}
+
+.profile svg{
+    width: 80%;
+}
+
+.typed{
+    color: #2d58ce;
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    height: 650px;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+}
+.Me{
+    position: absolute;
+    right: 20%;
+    top: 15%;
+    color: white;
+    border: solid gray;
+    padding: 75px;
+    width: 250px;
+    
+    background-color:#3867e8 ;
+   
+    padding: 50px;
+    width: 350px;
+    color: blue;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 550px;
+    background-color: white;
+    height: 450px;
+    text-align: center;
+}
+
+.info {
+    color: white;
+    background-color:#3867e8 ;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px  ;
+}
+.perssonel{
+    margin-bottom: 20px;
+}
