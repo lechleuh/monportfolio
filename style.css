@@ -4,8 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
     
 }
+
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -17,7 +19,10 @@ header{
     align-items: center;
     padding: 18px 230px;
     background-color: #fff;
-    box-shadow: 0 1px 4px #92a1b026;
+    box-shadow: 1px 1px 15px #2e323771;
+    width: 100%;
+    height: 80px;
+    
 }
 
 .logo h3{
@@ -45,6 +50,7 @@ header{
     font-weight: 600;
     letter-spacing: 1px;
     position: relative;
+    
 }
 
 .menu ul li a::after{
@@ -78,9 +84,9 @@ header{
 }
 .profile{
     width: 50%;
-    text-align: right;
     
-   
+    z-index: 1;
+ 
 }
 
 .text{
@@ -119,6 +125,7 @@ header{
 
 .footer_icon{
     padding-left: 5px;
+    
 }
 
 .footer_icon i{
@@ -126,6 +133,7 @@ header{
     margin-right: 25px;
     cursor: pointer;
     transition: 0.3s;
+    color: #000;
 }
 
 .footer_icon i:hover{
@@ -149,6 +157,7 @@ header{
     position: absolute;
     left: 2%;
     top: 10%;
+    z-index: -1;
 }
 .Me{
     position: absolute;
@@ -156,29 +165,64 @@ header{
     top: 15%;
     color: white;
     border: solid gray;
-    padding: 75px;
     width: 250px;
-    
+    box-shadow: 1px 1px 10px gray;
     background-color:#3867e8 ;
    
-    padding: 50px;
+    padding: 35px;
     width: 350px;
     color: blue;
     border-radius: 25px;
     margin-top: 50px;
-    margin-left: 550px;
+    margin-left: 575px;
     background-color: white;
-    height: 450px;
+    height: 480px;
     text-align: center;
 }
 
 .info {
-    color: white;
-    background-color:#3867e8 ;
+    color:#3867e8 ;
+    background-color: white ;
     padding: 10px;
     margin-top: 40px;
     border-radius: 5px  ;
+    text-align: left;
+    box-shadow: 1px 1px 10px black;
+    width: 280px;
+
 }
 .perssonel{
     margin-bottom: 20px;
+    
+}
+.button{
+    color: #2d58ce;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    background: #3867e8;
+    text-decoration: none;
+    box-shadow: 1px 1px 10px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.5px;
+    
+}
+.ipssi{
+    z-index: -1;
+    position: absolute;
+    width: 450px;
+    
+}
+
+.diplomée{
+    border-radius:30px ;
+    float: right;
+    box-shadow: 1px 1px 10px gray;
+    margin-right: 30px;
+}
+.ecole{
+    margin-top: 50px
 }
