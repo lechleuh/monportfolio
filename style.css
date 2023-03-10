@@ -83,8 +83,7 @@ header{
     align-items: center;
 }
 .profile{
-    width: 50%;
-    
+    width: 50%;  
     z-index: 1;
  
 }
@@ -224,5 +223,69 @@ header{
     margin-right: 30px;
 }
 .ecole{
-    margin-top: 50px
+    margin-top: 50px;
+    flex: 1%;
+    border-radius: 10px;
+    background-color: #3867e8;
+    color: white;
+    margin-left: 20px;
+    padding: 15px;  
+    box-shadow: 1px 1px 10px #2d58ce;
+    margin-bottom: 20px;
+}
+.test{
+display: flex;
+flex-wrap: wrap;
+}
+.test2{
+    flex: 1%;
+    margin-left: 50px;
+    padding: 10Px;
+    margin-top: 35px;
+    
+}
+
+.infobonus{
+    text-align: center;
+}
+
+.profileabout{
+    height: 725px;
+}
+
+.SIO{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #3867e8;
+    color: white;
+    letter-spacing: 1px;
+    font-family: inherit;
+    box-shadow: 1px 1px 10px #3867e8;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.titreSIO{
+    text-align: center;
+}
+.ecoleIPSSI{
+    text-align: center;
+    margin-top: 20px
+}
+.button2{
+    color: #2d58ce;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    background: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 10px black;
+    
+}
+
+.button2 a{
+    text-decoration: none;
+    color: #2d58ce;
+    letter-spacing: 1.5px;
+    text-align: center;
 }
